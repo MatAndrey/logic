@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+#app {
+    width: 1000px;
+    height: 500px;
+}
+
+svg {
+    stroke: #000;
+}
+
+.active {
+    stroke: red;
+}
+
+svg.source {
+    stroke: red;
+}
+
+.lamp {
+    fill: none;
+}
+
+.lamp.active {
+    fill: yellow;
+}
+
+.socket {
+    cursor: pointer;
+}
+
+.highlight.socket {
+    fill: yellow;
+}
+
+.select-frame {
+    stroke: blue;
+    fill: none;
+}
+
+.selected {
+    outline: 1px solid blue;
+}
